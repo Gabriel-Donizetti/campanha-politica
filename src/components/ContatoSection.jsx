@@ -2,12 +2,14 @@
 import React from 'react';
 
 const ContatoSection = ({ config }) => {
-  const { email, whatsapp, facebook, instagram, twitter } = config?.candidate?.contact || {};
-  const secondaryColor = config?.candidate?.secondary || '#f0f0f0'; // Default color if not provided
+  const { text, secondary } = config.candidate || {};
+  const { email, whatsapp, facebook, instagram, twitter } = config.candidate.contact || {};
 
   return (
-    <section id="contato" className="p-6 flex flex-col items-center" style={{ backgroundColor: secondaryColor }}>
-      <h2 className="text-2xl font-bold mb-4 text-white text-center">Contato</h2>
+    <section id="contato" className="p-6 flex flex-col items-center" style={{ backgroundColor: secondary }}>
+      <h2 className="text-2xl font-bold mb-4 text-center" style={{ color: text }}>
+        Contato
+      </h2>
       <div className="flex flex-wrap justify-center gap-4">
         {email && (
           <a
