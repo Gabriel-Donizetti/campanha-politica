@@ -2,15 +2,23 @@
 export const candidatesConfig = {
   joao: {
     candidate: {
-      name: "João da Silva",
-      slogan: "Pelo futuro da nossa cidade",
-      primary: "#FF5733",
-      secondary: "#C70039",
-      accent: "#900C3F",
-      photo: "./assets/candidate-photo.jpg",
-      summary: "João da Silva é um candidato comprometido com o desenvolvimento da cidade. Com experiência em gestão pública e um histórico de realizações, ele promete trazer mudanças significativas e positivas para todos. Seu compromisso é com a transparência e o progresso, buscando sempre ouvir e atender às necessidades da comunidade."
-    }
+      name: 'João Silva',
+      political: 'Partido X',
+      slogan: 'Juntos por um futuro melhor',
+      summary: 'João Silva é um candidato comprometido com as melhorias para a cidade...',
+      photo: 'assets/candidate-photo.jpg',
+      primary: '#06014a',
+      secondary: '#353169',
+      contact: {
+        email: 'joao.silva@example.com',
+        whatsapp: '5511998887777',
+        instagram: 'https://www.instagram.com/joaosilva',
+        twitter: 'https://twitter.com/joaosilva',
+        facebook: 'https://www.facebook.com/joaosilva',
+      },
+    },
   },
+
   maria: {
     candidate: {
       name: "Maria Oliveira",
