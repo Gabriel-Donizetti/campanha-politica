@@ -1,10 +1,10 @@
 export const candidatesConfig = {
   joao: {
     candidate: {
-      name: "João PikMole",
-      photo: "/assets/candidate-photo.jpg",
-      logoLigth: "/assets/logo_ligth.jpg",
-      logoDark: "/assets/logo_dark.jpg",
+      name: "João Da Silva",
+      photo: "/campanha-politica/assets/candidate-photo.jpg",
+      logoLigth: "/campanha-politica/assets/logo_ligth.jpg",
+      logoDark: "/campanha-politica/assets/logo_dark.jpg",
       political: "Partido Psol",
       slogan: "Por um futuro melhor",
       summary: "Investigador Lopes é um candidato com vasta experiência em gestão pública, conhecido por sua integridade e dedicação. Ao longo de sua carreira, ele implementou diversas políticas que beneficiaram milhares de pessoas, sempre focado em transparência e eficiência. Como vereador, pretende continuar seu trabalho para transformar nossa cidade em um lugar melhor para todos.",
@@ -49,9 +49,9 @@ export const candidatesConfig = {
   lopes: {
     candidate: {
       name: "Investigador Lopes",
-      photo: "/assets/investigador_lopes.jpg",
-      logoLigth: "/assets/logo_ligth.jpg",
-      logoDark: "/assets/logo_dark.jpg",
+      photo: "/campanha-politica/assets/investigador_lopes.jpg",
+      logoLigth: "/campanha-politica/assets/logo_ligth.jpg",
+      logoDark: "/campanha-politica/assets/logo_dark.jpg",
       political: "Partido Psol",
       slogan: "Por um futuro melhor",
       summary: "Investigador Lopes é um candidato com vasta experiência em gestão pública, conhecido por sua integridade e dedicação. Ao longo de sua carreira, ele implementou diversas políticas que beneficiaram milhares de pessoas, sempre focado em transparência e eficiência. Como vereador, pretende continuar seu trabalho para transformar nossa cidade em um lugar melhor para todos.",

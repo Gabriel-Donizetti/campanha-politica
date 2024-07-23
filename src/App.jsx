@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useParams, Navigate } from 'react-router-dom';
 import Header from './components/Header';
@@ -23,7 +22,7 @@ const RouteHandler = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/campanha-politica">
       <Routes>
         <Route path="/:candidate" element={<RouteHandler />} />
         <Route path="/" element={<Navigate to="/joao" />} />
