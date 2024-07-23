@@ -14,7 +14,7 @@ const Header = ({ config }) => {
             <li><a href="#contato" className="hover:underline" style={{color: secondary}}>Contato</a></li>
           </ul>
         </div>
-        {logo && (
+        {logoDark && (
           <div className="flex-shrink-0">
             <img
               src={logoDark}

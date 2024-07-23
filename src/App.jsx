@@ -8,7 +8,7 @@ import { candidatesConfig } from './components/CandidateConfig';
 
 const RouteHandler = () => {
   const { candidate } = useParams();
-  const config = candidatesConfig[candidate] || candidatesConfig['joao']; // fallback para 'joao' se candidato não for encontrado
+  const config = candidatesConfig[candidate] || candidatesConfig['lopes']; // fallback para 'joao' se candidato não for encontrado
 
   return (
     <>
@@ -25,7 +25,7 @@ const App = () => {
     <Router basename="/campanha-politica">
       <Routes>
         <Route path="/:candidate" element={<RouteHandler />} />
-        <Route path="/" element={<Navigate to="/joao" />} />
+        <Route path="/" element={<Navigate to="/lopes" />} />
       </Routes>
     </Router>
   );

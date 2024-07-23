@@ -53,7 +53,7 @@ export const candidatesConfig = {
       logoLigth: "/campanha-politica/assets/logo_ligth.jpg",
       logoDark: "/campanha-politica/assets/logo_dark.jpg",
       political: "Partido Psol",
-      slogan: "Por um futuro melhor",
+      slogan: "Para que o mal triunfe, basta que os bons não façam nada. Edmund Burke",
       summary: "Investigador Lopes é um candidato com vasta experiência em gestão pública, conhecido por sua integridade e dedicação. Ao longo de sua carreira, ele implementou diversas políticas que beneficiaram milhares de pessoas, sempre focado em transparência e eficiência. Como vereador, pretende continuar seu trabalho para transformar nossa cidade em um lugar melhor para todos.",
       primary: "#5d3478",
       secondary: "#470075",
