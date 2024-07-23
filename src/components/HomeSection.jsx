@@ -2,7 +2,7 @@
 import React from 'react';
 
 const HomeSection = ({ config }) => {
-  const { photo, logo, name, slogan, summary, primary, secondary, text } = config.candidate || {};
+  const { photo, logoLigth, logoDark, name, slogan, summary, primary, secondary, text } = config.candidate || {};
 
   if (!config || !config.candidate) {
     return <div>Erro: Configuração não encontrada.</div>;
@@ -20,7 +20,7 @@ const HomeSection = ({ config }) => {
       <div className="w-full max-w-5xl mx-auto text-center mb-12 flex flex-col items-center" >
         <h1 className="text-4xl font-bold mb-4" style={{ color: primary }}>{slogan}</h1>
         <img
-          src={logo}
+          src={logoDark}
           alt="Logo"
           className="h-24 w-auto mb-4"
           style={{ maxHeight: '128px' }} // altura máxima para a logo
@@ -37,7 +37,6 @@ const HomeSection = ({ config }) => {
             style={{ 
               maxWidth: '100%', 
               height: 'auto', 
-              border: `2px solid ${primary}` // Borda com a cor primária
             }}
           />
         </div>
@@ -51,7 +50,7 @@ const HomeSection = ({ config }) => {
           >
             <h2 className="text-3xl font-bold mb-2 text-center" style={{ color: text }}>{name}</h2>
             <img
-              src={logo}
+              src={logoLigth}
               alt="Logo"
               className="h-24 w-auto mb-4"
               style={{ maxHeight: '128px' }} // altura máxima para a logo

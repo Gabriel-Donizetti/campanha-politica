@@ -48,7 +48,6 @@ const PropostasSection = ({ config }) => {
 
   return (
     <section id="propostas" className="p-6" >
-      <h2 className="text-2xl font-bold mb-4 text-center" style={{color: primary}}>Propostas</h2>
       <div className="slider-container">
         <Slider {...settings}>
           {proposals && proposals.map((proposal, index) => (
