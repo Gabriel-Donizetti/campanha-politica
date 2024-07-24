@@ -67,19 +67,19 @@ export const candidatesConfig = {
       },
       proposals: [
         {
-          title: "Fiscalização Rigorosa",
+          title: "1",
           description: "Fiscalizar as ações do executivo e do legislativo com rigor."
         },
         {
-          title: "Legislação Ética e Transparente",
+          title: "2",
           description: "Legislar com ética, transparência e com diálogo com os envolvidos."
         },
         {
-          title: "Serviços Públicos de Qualidade",
+          title: "3",
           description: "Lutar sempre por serviços públicos, gratuitos e de qualidade."
         },
         {
-          title: "Proposição e Aprovação de Leis",
+          title: "4",
           description: "Propor e aprovar projetos de lei de interesse coletivo."
         },
       ]
